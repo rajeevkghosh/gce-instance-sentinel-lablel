@@ -10,7 +10,7 @@ resource "google_compute_instance" "terraform" {
 
   labels =  {
 
-  env = "dev"
+  #env = "dev"
   foo = "bar"
 
   }
